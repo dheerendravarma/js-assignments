@@ -40,3 +40,49 @@ arr.push(4);
 console.log(arr);
 
 // arr = [1,2,3]; // It will throw TypeError
+
+// Data types in JavaScript
+// Primitive data types
+
+let number = 26;
+let string = "Hello World";
+let isActive = true;
+let numbers = [1, 2, 3, 4, 5];
+
+// Operators in JavaScript
+let sum = 10 + 16;
+let isEquals = (10 === 10);
+let isTrue = (true && false);
+let isFalse = (true || false);
+let isNot = !true;
+
+
+// function declaration
+function greet(name) {
+    return "Hello " + name;
+}
+
+console.log(greet("Varma"));
+
+// For loop
+for (let i = 0; i < 5; i++) {
+    console.log(i); // Outputs 0 to 4
+}
+
+// While loop
+let j = 0;
+while (j < 5) {
+    console.log(j); // Outputs 0 to 4
+    j++;
+}
+
+// objects in JavaScript
+let user = {
+    name: "John",
+    age: 25,
+    isActive: true
+};
+
+console.log(user["name"]);
+console.log(user.age);
+console.log(user.isActive);
