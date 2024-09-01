@@ -86,3 +86,10 @@ let user = {
 console.log(user["name"]);
 console.log(user.age);
 console.log(user.isActive);
+
+// Arrays in Javascript
+const users = ["Dheerendra", "Varma", "Ravi"];
+const usersCount = users.length;
+const firstUser = users[0]
+console.log(firstUser);
+
